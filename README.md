@@ -1,5 +1,3 @@
-In this project, let's build a **Digital Timer App** by applying the concepts we have learned till now.
-
 ### Refer to the image below:
 
 <br/>
@@ -8,32 +6,12 @@ In this project, let's build a **Digital Timer App** by applying the concepts we
 </div>
 <br/>
 
-### Design Files
-
-<details>
-<summary>Click to view</summary>
-
-- [Extra Small (Size < 576px), Small (Size >= 576px)](https://assets.ccbp.in/frontend/content/react-js/digital-timer-sm-output.png)
-- [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px)](https://assets.ccbp.in/frontend/content/react-js/digital-timer-lg-output.png)
-
-</details>
-
-### Set Up Instructions
-
-<details>
-<summary>Click to view</summary>
-
-- Download dependencies by running `npm install`
-- Start up the app using `npm start`
-</details>
-
 ### Completion Instructions
 
 <details>
 <summary>Functionality to be added</summary>
 <br/>
 
-The app must have the following functionalities
 
 - The default timer limit value should be 25 minutes
 - When the **Start** button is clicked,
@@ -76,44 +54,6 @@ The app must have the following functionalities
 
 </details>
 
-<details>
-<summary>Implementation Files</summary>
-<br/>
-
-Use these files to complete the implementation:
-
-- `src/components/DigitalTimer/index.js`
-- `src/components/DigitalTimer/index.css`
-</details>
-
-### Quick Tips
-
-<details>
-<summary>Click to view</summary>
-<br>
-
-- You can use the `box-shadow` CSS property to apply the box-shadow effect to containers
-
-  ```
-    box-shadow: 0px 4px 16px 0px #bfbfbf;
-  ```
-
-  <br/>
-  <img src="https://assets.ccbp.in/frontend/content/react-js/box-shadow-img.png" alt="box shadow" style="width:200px" />
-
-- You can use `Math.floor()` function that returns the **largest integer less than or equal to a given number**
-
-  ```js
-  console.log(Math.floor(5.95)); // output: 5
-  ```
-
-- You can use the `background-position` CSS property to set the starting position of a background image
-  ```
-  background-position: center;
-  ```
-
-</details>
-
 ### Resources
 
 <details>
@@ -146,10 +86,3 @@ Use these files to complete the implementation:
 - Roboto
 
 </details>
-
-> ### _Things to Keep in Mind_
->
-> - All components you implement should go in the `src/components` directory.
-> - Don't change the component folder names as those are the files being imported into the tests.
-> - **Do not remove the pre-filled code**
-> - Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.
