@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.total-thing {
+  padding: 70px 275px 0px 275px;
+  background-image: linear-gradient(to right, #ffffff, #9efde5);
+  height: 100vh;
+}
+
+.headThing {
+  text-align: center;
+  font-size: 45px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.bgDiv {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-position: center;
+  background-size: cover;
+  padding: 100px;
+  height: 550px;
+  width: 470px;
+}
+
+.roundDiv {
+  background-color: white;
+  padding: 30px;
+  border-radius: 1000px;
+  height: 140px;
+}
+
+.timeHead {
+  color: #00d9f5;
+  margin-top: 10px;
+}
+
+.flexDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.controlDiv {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bgDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  height: 35px;
+  margin-right: 10px;
+}
+
+.startResetDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.startBtn {
+  margin-right: 50px;
+}
+
+.startResetStyle {
+  border: 0;
+  background-color: transparent;
+  font-size: 30px;
+  width: 100px;
+}
+
+.setLimitDiv {
+  margin-top: 55px;
+  width: 300px;
+}
+
+p {
+  text-align: center;
+}
+
+.plusMinusDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.plusMinBtn {
+  border: 0;
+  width: 40px;
+  background-color: transparent;
+}
+
+.timLimPara {
+  font-size: 18px;
+  margin-bottom: 18px;
+}
+
+.plusBtn {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.minBtn {
+  font-size: 55px;
+  margin-bottom: 3px;
+}
+
+.finalPara {
+  font-size: 30px;
+  font-weight: bold;
+  background-image: linear-gradient(to right, #a3ffe8, #00d9f5);
+  box-shadow: 0px 2px 3px 0px #bfbfbf;
+  width: 100px;
+  height: 42px;
+  border-radius: 10px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.firstPara {
+  font-weight: bold;
+}
